@@ -31,7 +31,7 @@ export default function RootLayout({
       <body className="flex min-h-screen bg-gray-50 text-gray-900">
         <LeftSidebar />
         
-        <main className="flex-1 md:ml-[300px] lg:mr-20 min-h-screen overflow-y-auto px-4 md:px-8 py-10">
+        <main className="flex-1 md:ml-75 lg:mr-20 min-h-screen overflow-y-auto px-4 md:px-8 py-10">
           {children}
         </main>
         
