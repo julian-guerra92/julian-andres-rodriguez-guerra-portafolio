@@ -18,7 +18,7 @@ export const KnowledgeCard: React.FC<KnowledgeCardProps> = ({ title, description
         {title}
       </h3>
       
-      <p className="text-gray-500 text-sm font-medium leading-relaxed max-w-[200px]">
+      <p className="text-gray-500 text-sm font-medium leading-relaxed max-w-50">
         {description}
       </p>
     </div>
