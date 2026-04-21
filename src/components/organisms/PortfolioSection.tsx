@@ -61,7 +61,7 @@ export const PortfolioSection = () => {
   };
 
   return (
-    <section className="py-8">
+    <section className="pt-8">
       <SectionTitle 
         title="Portfolio" 
         subtitle="Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum"

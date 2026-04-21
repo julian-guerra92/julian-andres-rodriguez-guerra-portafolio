@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { LeftSidebar } from "@/components/organisms/LeftSidebar";
+import { RightSidebar } from "@/components/organisms/RightSidebar";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -35,8 +36,7 @@ export default function RootLayout({
           {children}
         </main>
         
-        <aside className="w-20 fixed right-0 h-screen overflow-y-auto hidden lg:flex flex-col items-center border-l border-gray-200">
-        </aside>
+        <RightSidebar />
       </body>
     </html>
   );
