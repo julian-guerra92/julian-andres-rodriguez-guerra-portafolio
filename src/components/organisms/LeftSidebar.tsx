@@ -6,6 +6,7 @@ import { ProfileHeader } from "@/components/molecules/ProfileHeader";
 import { ContactsList } from "@/components/organisms/ContactsList";
 import { SkillsSection } from "@/components/organisms/SkillsSection";
 import { ExtraSkillsList } from "@/components/organisms/ExtraSkillsList";
+import { ReferencesList } from "@/components/organisms/ReferencesList";
 import { Divider } from "@/components/atoms/Divider";
 
 export const LeftSidebar = () => {
@@ -30,7 +31,7 @@ export const LeftSidebar = () => {
       )}
 
       <aside
-        className={`fixed top-0 left-0 h-screen w-[300px] bg-white border-r border-gray-200 py-6 overflow-y-auto z-40 flex flex-col items-center transition-transform duration-300 ease-in-out shadow-[4px_0_24px_rgba(0,0,0,0.02)]
+        className={`fixed top-0 left-0 h-screen w-75 bg-white border-r border-gray-200 py-6 overflow-y-auto z-40 flex flex-col items-center transition-transform duration-300 ease-in-out shadow-[4px_0_24px_rgba(0,0,0,0.02)]
           ${
             isOpen ? "translate-x-0" : "-translate-x-full"
           } md:translate-x-0`}
@@ -42,6 +43,8 @@ export const LeftSidebar = () => {
         <SkillsSection />
         <Divider />
         <ExtraSkillsList />
+        <Divider />
+        <ReferencesList />
         <div className="h-10 shrink-0 w-full" />
       </aside>
     </>

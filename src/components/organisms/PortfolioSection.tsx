@@ -20,31 +20,22 @@ interface Project {
 const PORTFOLIO_PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'App Web y Arquitecturas Limpias (Ceiba Software)',
-    description: 'Desarrollo de aplicación web backend y frontend implementando principios de arquitectura limpia para mantener alta escalabilidad.',
-    imageUrl: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80',
-    stack: 'Spring Boot y Angular',
-    fullDescription: 'Participación activa en el diseño, desarrollo y reestructuración de core transaccional para Ceiba Software. Se enfocó el desarrollo en metodologías de Clean Architecture para asegurar entregas robustas, de fácil testing y acoplamiento flexible. Implementé APIs potentes de extremo a extremo.',
-    githubUrl: 'https://github.com'
+    title: 'My Wallet App',
+    description: 'Desarrollo de una aplicación móvil de gestión financiera personal, permitiendo a los usuarios registrar gastos, ingresos y visualizar estadísticas financieras.',
+    imageUrl: '/my-wallet-app.jpeg',
+    stack: 'Next.js - Node.js - PostgreSQL',
+    fullDescription: 'De manera utonóma y personal desarrollé una aplicación móvil de gestión financiera personal utilizando Next.js para el frontend y Node.js con PostgreSQL para el backend. La aplicación permite a los usuarios registrar gastos e ingresos, categorizar transacciones y visualizar estadísticas financieras a través de gráficos interactivos. Implementé autenticación segura y optimicé la experiencia del usuario con una interfaz intuitiva y responsiva.',
+    githubUrl: 'https://github.com/julian-guerra92/my-wallet-app'
   },
   {
     id: '2',
-    title: 'Integración de Servicios Cloud (Innovati)',
-    description: 'Sistema integral distribuido para la orquestación y administración unificada de diversos servicios en la nube.',
-    imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80',
-    stack: 'Node.js, React, Nest y Angular',
-    fullDescription: 'Construcción desde los cimientos de la arquitectura backend con NestJS y microservicios robustos a través de integraciones asíncronas con flujos nativos de Cloud, presentados elegantemente en un frontend altamente eficiente bajo la sombrilla de Next.js y React. Se empleó un stack unificado Node para mejorar tiempos de despliegue.',
-    githubUrl: 'https://github.com'
+    title: 'ComiNow',
+    description: 'Sistema multitenant de gestión de pedidos para restaurantes, con integración de pagos y panel administrativo para seguimiento de ventas.',
+    imageUrl: '/cominow.png',
+    stack: 'Node.js - NestJS - Angular -  MongoDB - PostgreSQL - Docker - AWS',
+    fullDescription: 'Construcción de un sistema multitenant de gestión de pedidos para restaurantes, utilizando Node.js con NestJS para el backend y Angular para el frontend. El sistema incluye integración de pagos, panel administrativo para seguimiento de ventas y gestión de menús. Implementación de una arquitectura escalable de microservicios basada en eventos, apoyado con Docker y despliegue de la aplicación en AWS, asegurando alta disponibilidad y rendimiento.',
+    githubUrl: 'https://github.com/orgs/ComiNow/repositories'
   },
-  {
-    id: '3',
-    title: 'Plataforma de Analítica de Datos (Colanta)',
-    description: 'Desarrollo modular de una herramienta directiva de business intelligence, permitiendo visualizaciones complejas de datos transaccionales.',
-    imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80',
-    stack: 'Qlik Sense y BD Relacionales',
-    fullDescription: 'Lideré el diseño e implementación de un hub de extracción y cruce de datos empresariales extraídos de múltiples sistemas legados. Aprovechamos la potencia de Qlik Sense incrustado y rutinas automatizadas de bases de datos para entregar dashboards directivos con analítica de consumo rápido.',
-    githubUrl: 'https://github.com'
-  }
 ];
 
 export const PortfolioSection = () => {
@@ -63,8 +54,8 @@ export const PortfolioSection = () => {
   return (
     <section className="pt-8">
       <SectionTitle 
-        title="Portfolio" 
-        subtitle="Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum"
+        title="Portafolio de Proyectos" 
+        subtitle="Una selección de mis trabajos más destacados en desarrollo de software y soluciones tecnológicas"
       />
       
       <div 

@@ -47,8 +47,8 @@ export const KnowledgeSection = () => {
   return (
     <section className="py-8">
       <SectionTitle 
-        title="My Knowledge" 
-        subtitle="Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum" 
+        title="Mis Conocimientos y Habilidades" 
+        subtitle="Principales áreas de experiencia y tecnologías que domino, adquiridas a través de mi formación académica y experiencia laboral." 
       />
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

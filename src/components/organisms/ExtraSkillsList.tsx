@@ -6,7 +6,7 @@ export const ExtraSkillsList = () => {
     "Integración de aplicaciones en la nube",
     "Comunicación oral y escrita",
     "Organización y trabajo en equipo",
-    "Creatividad y pensamiento lógico",
+    "Creatividad y pensamiento lógico orientado al logro de objetivos",
     "Manejo de BD relacionales y no relacionales",
     "Apasionado por nuevos conocimientos"
   ];

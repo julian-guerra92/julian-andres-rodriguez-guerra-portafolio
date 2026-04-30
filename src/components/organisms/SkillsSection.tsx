@@ -3,18 +3,18 @@ import { Divider } from "@/components/atoms/Divider";
 
 export const SkillsSection = () => {
   const languages = [
-    { name: "Inglés", percentage: 70 }
+    { name: "Inglés", percentage: 65 }
   ];
   
   const technologies = [
-    { name: "JS / TS", percentage: 80 },
-    { name: "Node.js", percentage: 75 },
+    { name: "JS / TS", percentage: 90 },
+    { name: "Node.js", percentage: 90 },
     { name: "React", percentage: 80 },
-    { name: "MySQL / PostgreSQL", percentage: 70 },
-    { name: "MongoDB", percentage: 75 },
-    { name: "Java", percentage: 70 },
-    { name: "Spring", percentage: 65 },
-    { name: "Docker", percentage: 70 },
+    { name: "MySQL / PostgreSQL", percentage: 80 },
+    { name: "MongoDB", percentage: 80 },
+    { name: "Java", percentage: 85 },
+    { name: "Spring", percentage: 85 },
+    { name: "Docker", percentage: 85 },
   ];
 
   return (

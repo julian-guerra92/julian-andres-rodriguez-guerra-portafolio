@@ -34,16 +34,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
         <div className="mt-auto">
           <Button 
             className="text-[#FFB400] text-sm font-bold tracking-wide w-full"
-            style={{ 
-              background: 'none', 
-              boxShadow: 'none', 
-              paddingLeft: 0,
-              paddingRight: 0,
-              justifyContent: 'flex-start'
-            }}
             onClick={onLearnMore}
           >
-            LEARN MORE &gt;
+            Saber Más
           </Button>
         </div>
       </div>

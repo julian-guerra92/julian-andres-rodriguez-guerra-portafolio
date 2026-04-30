@@ -30,8 +30,8 @@ export const EducationSection = () => {
   return (
     <section className="">
       <SectionTitle 
-        title="Education" 
-        subtitle="Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum"
+        title="Educación Formal" 
+        subtitle="Formación académica y universitaria"
       />
       
       <div className="bg-white rounded-lg overflow-hidden flex flex-col shadow-sm">
